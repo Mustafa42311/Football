@@ -9,7 +9,7 @@ The core intuition behind KNN is the proximity hypothesis: similar data points l
 To determine which data points are "nearest" to a new query point, the algorithm must quantify similarity. It does this by calculating the geometric distance between points in the feature space.
 
 The most common metric used is Euclidean Distance. For two points, p and q, in an n-dimensional space, the distance is calculated as:
-$$d(p,q)=1∑n​(qi​−pi​)2​$$
+$$d(p,q)=∑n​(qi​−pi​)2​$$
 
 Other distance metrics include:
 - Manhattan Distance: The sum of absolute differences (useful for high-dimensional grid-like data).
